@@ -1,0 +1,30 @@
+# Maven
+target/
+*.war
+*.class
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse / VS Code
+.classpath
+.project
+.settings/
+.factorypath
+.vscode/
+bin/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Loglar
+*.log
+logs/
+
+# Lokal yapilandirma (gercek sifrelerinizi commitlemeyin)
+src/main/resources/db.properties.local
